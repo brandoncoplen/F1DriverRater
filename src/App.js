@@ -1,19 +1,28 @@
 import React, { useState } from "react";
 import Button from "./components/Button";
+import countapi from 'countapi-js';
 import "./App.css";
 import "./index.js";
 
 
 export default function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState();
 
   let incrementCount = () => {
-    setCount(count + 1);
-  };
+    countapi.update('f1AppAlbon', 'fbda1857-916b-413d-8b7b-503651f3c52c', +1).then(() => {
+      countapi.get('f1AppAlbon', 'fbda1857-916b-413d-8b7b-503651f3c52c').then((result) =>  {
+    setCount(result.value);
+    })
+  })
+}
 
   let decrementCount = () => {
-    setCount(count - 1);
-  };
+    countapi.update('f1AppAlbon', 'fbda1857-916b-413d-8b7b-503651f3c52c', -1).then((result) => {
+      countapi.get('f1AppAlbon', 'fbda1857-916b-413d-8b7b-503651f3c52c').then((result) =>  {
+        setCount(result.value);
+    })
+  })
+}
    
   return (
     

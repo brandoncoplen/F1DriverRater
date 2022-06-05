@@ -163,11 +163,11 @@ lat.render(
 // works with one btn so far, cannot figure out how to call the class name
 // or specific plus/minus button from App.js
 
-document.getElementById("+alb").addEventListener("click", () => {
-  countapi.update('f1AppAlbon', 'fbda1857-916b-413d-8b7b-503651f3c52c', +1).then((result) => {
-    alert(`The magic button has been pressed ${result.value} times.`);
-  });
-});
+// document.getElementById("+alb").addEventListener("click", () => {
+//   countapi.update('f1AppAlbon', 'fbda1857-916b-413d-8b7b-503651f3c52c', +1).then((result) => {
+//     alert(`The magic button has been pressed ${result.value} times.`);
+//   });
+// });
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
