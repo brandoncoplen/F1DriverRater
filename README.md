@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+First install countapi in the command line
+
+### `npm install countapi-js --save`
+
 In the project directory, you can run:
 
 ### `npm start`
