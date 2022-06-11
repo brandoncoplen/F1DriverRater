@@ -4,6 +4,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {Alb} from './App';
 import {Alo} from './App';
+import {Bot} from './App';
+import {Gas} from './App';
+import {Ham} from './App';
+import {Hul} from './App';
+import {Lat} from './App';
+import {Lec} from './App';
+import {Mag} from './App';
+import {Nor} from './App';
+import {Oco} from './App';
+import {Per} from './App';
+import {Ric} from './App';
+import {Rus} from './App';
+import {Sai} from './App';
+import {Sch} from './App';
+import {Str} from './App';
+import {Tsu} from './App';
+import {Ver} from './App';
+import {Vet} from './App';
+import {Gua} from './App';
 import reportWebVitals from './reportWebVitals';
 import countapi from 'countapi-js';
 import "./App.js";
@@ -26,133 +45,133 @@ alo.render(
 const ver = ReactDOM.createRoot(document.getElementById('ver'));
 ver.render(
   <React.StrictMode>
-    <Alb />
+    <Ver />
   </React.StrictMode>
 );
 
 const lec = ReactDOM.createRoot(document.getElementById('lec'));
 lec.render(
   <React.StrictMode>
-    <Alb />
+    <Lec />
   </React.StrictMode>
 );
 
 const per = ReactDOM.createRoot(document.getElementById('per'));
 per.render(
   <React.StrictMode>
-    <Alb />
+    <Per />
   </React.StrictMode>
 );
 
 const rus = ReactDOM.createRoot(document.getElementById('rus'));
 rus.render(
   <React.StrictMode>
-    <Alb />
+    <Rus />
   </React.StrictMode>
 );
 
 const sai = ReactDOM.createRoot(document.getElementById('sai'));
 sai.render(
   <React.StrictMode>
-    <Alb />
+    <Sai />
   </React.StrictMode>
 );
 
 const ham = ReactDOM.createRoot(document.getElementById('ham'));
 ham.render(
   <React.StrictMode>
-    <Alb />
+    <Ham />
   </React.StrictMode>
 );
 
 const nor = ReactDOM.createRoot(document.getElementById('nor'));
 nor.render(
   <React.StrictMode>
-    <Alb />
+    <Nor />
   </React.StrictMode>
 );
 
 const bot = ReactDOM.createRoot(document.getElementById('bot'));
 bot.render(
   <React.StrictMode>
-    <Alb />
+    <Bot />
   </React.StrictMode>
 );
 
 const oco = ReactDOM.createRoot(document.getElementById('oco'));
 oco.render(
   <React.StrictMode>
-    <Alb />
+    <Oco />
   </React.StrictMode>
 );
 
 const mag = ReactDOM.createRoot(document.getElementById('mag'));
 mag.render(
   <React.StrictMode>
-    <Alb />
+    <Mag />
   </React.StrictMode>
 );
 
 const ric = ReactDOM.createRoot(document.getElementById('ric'));
 ric.render(
   <React.StrictMode>
-    <Alb />
+    <Ric />
   </React.StrictMode>
 );
 
 const tsu = ReactDOM.createRoot(document.getElementById('tsu'));
 tsu.render(
   <React.StrictMode>
-    <Alb />
+    <Tsu />
   </React.StrictMode>
 );
 
 const gas = ReactDOM.createRoot(document.getElementById('gas'));
 gas.render(
   <React.StrictMode>
-    <Alb />
+    <Gas />
   </React.StrictMode>
 );
 
 const vet = ReactDOM.createRoot(document.getElementById('vet'));
 vet.render(
   <React.StrictMode>
-    <Alb />
+    <Vet />
   </React.StrictMode>
 );
 
 const str = ReactDOM.createRoot(document.getElementById('str'));
 str.render(
   <React.StrictMode>
-    <Alb />
+    <Str />
   </React.StrictMode>
 );
 
-const zho = ReactDOM.createRoot(document.getElementById('zho'));
-zho.render(
+const gua = ReactDOM.createRoot(document.getElementById('gua'));
+gua.render(
   <React.StrictMode>
-    <Alb />
+    <Gua />
   </React.StrictMode>
 );
 
 const sch = ReactDOM.createRoot(document.getElementById('sch'));
 sch.render(
   <React.StrictMode>
-    <Alb />
+    <Sch />
   </React.StrictMode>
 );
 
 const hul = ReactDOM.createRoot(document.getElementById('hul'));
 hul.render(
   <React.StrictMode>
-    <Alb />
+    <Hul />
   </React.StrictMode>
 );
 
 const lat = ReactDOM.createRoot(document.getElementById('lat'));
 lat.render(
   <React.StrictMode>
-    <Alb />
+    <Lat />
   </React.StrictMode>
 );
 
