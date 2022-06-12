@@ -38,19 +38,19 @@
 }
 
 .app .count {
-    margin-bottom: 2rem;
     text-align: center;
     display: flex;
-    margin-right: 5rem;
+    margin-right: 6rem;
+    contain: content;
 
 }
 .app .count h3 {
-    line-height: 5rem;
+    line-height: 2rem;
     margin-right: 1rem;
 }
 .app .count h1 {
     font-size:2em;
-    margin-top: 1rem;
+    
 }
 .app .buttons{
   max-width: 300px;
@@ -58,7 +58,7 @@
 .app .buttons button {
     /* width: 2rem;
     height: 2rem; */
-    border-radius: 50%;
+    border-radius: 50rem;
     /* border: none; */
     margin: 0 1rem;
     /* font-size: 5em; */
@@ -104,7 +104,8 @@ align-items: center;
 
 .driverPhoto{
   border: solid;
-  margin-left: 0;
+  margin: auto;
+  border-radius: 20% 20% 15% 15%;
 }
 
 .wrapper{
@@ -117,7 +118,8 @@ align-items: center;
 }
 
 hr{
+  opacity: 100%;
   margin: 0%;
-  border-top: .3rem solid darkred;
+  border-top: .3rem solid #e10600;
   border-radius: 5rem;
 }
