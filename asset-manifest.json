@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/F1DriverRater/static/css/main.bcd6db7c.css",
+    "main.css": "/F1DriverRater/static/css/main.b5815c73.css",
     "main.js": "/F1DriverRater/static/js/main.64d3a2df.js",
     "static/js/787.30317df5.chunk.js": "/F1DriverRater/static/js/787.30317df5.chunk.js",
     "index.html": "/F1DriverRater/index.html",
-    "main.bcd6db7c.css.map": "/F1DriverRater/static/css/main.bcd6db7c.css.map",
+    "main.b5815c73.css.map": "/F1DriverRater/static/css/main.b5815c73.css.map",
     "main.64d3a2df.js.map": "/F1DriverRater/static/js/main.64d3a2df.js.map",
     "787.30317df5.chunk.js.map": "/F1DriverRater/static/js/787.30317df5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd6db7c.css",
+    "static/css/main.b5815c73.css",
     "static/js/main.64d3a2df.js"
   ]
 }
