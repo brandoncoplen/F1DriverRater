@@ -2,6 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
+import countapi from 'countapi-js';
+import "./App.js";
+
+
 import {Alb} from './App';
 import {Alo} from './App';
 import {Bot} from './App';
@@ -23,12 +28,11 @@ import {Tsu} from './App';
 import {Ver} from './App';
 import {Vet} from './App';
 import {Gua} from './App';
-import reportWebVitals from './reportWebVitals';
-import countapi from 'countapi-js';
-import "./App.js";
+
+import {Visits} from './App';
 
 
-const alb = ReactDOM.createRoot(document.getElementById('+alb'));
+const alb = ReactDOM.createRoot(document.getElementById('alb'));
 alb.render(
   <React.StrictMode>
     <Alb />
@@ -174,6 +178,15 @@ lat.render(
     <Lat />
   </React.StrictMode>
 );
+
+const visits = ReactDOM.createRoot(document.getElementById('visits'));
+visits.render(
+  <React.StrictMode>
+    <Visits />
+  </React.StrictMode>
+);
+
+
 
 // sample api track
 // {"namespace":"f1AppAlbon","key":"fbda1857-916b-413d-8b7b-503651f3c52c","value":0}
