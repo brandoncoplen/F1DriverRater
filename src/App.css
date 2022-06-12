@@ -56,11 +56,11 @@
   max-width: 300px;
 }
 .app .buttons button {
-    width: 2rem;
-    height: 2rem;
+    /* width: 2rem;
+    height: 2rem; */
     border-radius: 50%;
     /* border: none; */
-    margin: 0 2rem;
+    margin: 0 1rem;
     /* font-size: 5em; */
     cursor: pointer; 
     /* float: left; */
