@@ -4,6 +4,16 @@ import countapi from 'countapi-js';
 import "./App.css";
 import "./index.js";
 
+export function Visits() {
+  const [visits, setVisits] = useState();
+  countapi.get('f1app', '9e640730-1b7c-414d-8bbd-6e14642f19a7').then((result) =>  {
+    setVisits(result.value);
+})
+return (
+  <h3>{visits}</h3>
+)
+}
+
 // Albon
 export function Alb() {
   const [count, setCount] = useState();

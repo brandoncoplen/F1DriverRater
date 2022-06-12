@@ -41,25 +41,29 @@
     margin-bottom: 2rem;
     text-align: center;
     display: flex;
-    margin-left: 10rem;
+    margin-right: 5rem;
+
 }
 .app .count h3 {
-    line-height: 8.6rem;
+    line-height: 5rem;
     margin-right: 1rem;
 }
 .app .count h1 {
-    font-size:5em;
-    margin-top: 2rem;
+    font-size:2em;
+    margin-top: 1rem;
+}
+.app .buttons{
+  max-width: 300px;
 }
 .app .buttons button {
-    /* width: 10rem;
-    height: 10rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
-    border: none;
+    /* border: none; */
     margin: 0 2rem;
-    font-size: 5em;
-    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
-    cursor: pointer; */
+    /* font-size: 5em; */
+    cursor: pointer; 
+    /* float: left; */
 }
 .app .buttons button:hover{
     /* font-size: 7em; */
@@ -89,9 +93,10 @@ align-items: center;
     flex: content;
     border: 1px solid black;
     width: fit-content;
-    margin: 1%;
+    margin: auto;
     padding: 1%;
-    float: left;
+    
+    /* float: left; */
     
  }
 
@@ -99,3 +104,13 @@ align-items: center;
   border: solid;
   margin-left: 0;
 }
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px,1fr));
+}
+
+.count{
+  float: left;
+}
+
