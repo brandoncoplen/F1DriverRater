@@ -94,6 +94,8 @@ align-items: center;
     border: 1px solid black;
     width: fit-content;
     margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     padding: 1%;
     
     /* float: left; */
@@ -107,10 +109,15 @@ align-items: center;
 
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(225px,1fr));
 }
 
 .count{
   float: left;
 }
 
+hr{
+  margin: 0%;
+  border-top: .3rem solid darkred;
+  border-radius: 5rem;
+}
